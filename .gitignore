@@ -1,0 +1,72 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+
+# ----------------------------
+# Odoo runtime data (NEVER commit)
+# ----------------------------
+.odoo/
+odoo.log
+*.log
+
+# Filestore & local Odoo data
+filestore/
+data/
+var/
+.local/
+.local/share/
+.local/share/Odoo/
+
+# ----------------------------
+# Odoo generated assets
+# ----------------------------
+web/assets/
+web/static/lib/
+*.scssc
+*.css.map
+
+# ----------------------------
+# Database dumps / backups
+# ----------------------------
+*.dump
+*.sql
+*.backup
+
+# ----------------------------
+# Docker
+# ----------------------------
+docker-compose.override.yml
+*.pid
+
+# Docker volumes / runtime storage
+postgres/
+postgres-data/
+pgdata/
+docker-data/
+
+# ----------------------------
+# OS / Editor
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# Node / frontend (if any)
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
