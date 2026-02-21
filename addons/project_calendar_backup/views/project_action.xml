@@ -1,0 +1,5 @@
+<odoo>
+    <record id="project.action_view_task" model="ir.actions.act_window">
+        <field name="view_mode">kanban,tree,form,calendar</field>
+    </record>
+</odoo>
