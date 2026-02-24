@@ -1,7 +1,7 @@
 {
     'name': 'Soluzion ID en Productos',
     'version': '17.0.1.0.0',
-    'author': 'MIEMPRESA',
+    'author': 'IWAN21',
     'category': 'Product',
     'summary': 'Añade el campo Soluzion_ID al producto',
     'description': """
